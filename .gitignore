@@ -1,0 +1,8 @@
+__pycache__
+
+/figures/out/*
+!/figures/out/.keep
+/optics/meshes/*
+!/optics/meshes/.keep
+/results/*
+!/results/.keep

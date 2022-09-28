@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ma-ot-monotone"
+version = "0.1.0"
+description = ""
+authors = ["Guillaume Bonnet <guillaume.bonnet1@universite-paris-saclay.fr>"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+agd = "^0.1"
+imageio = "^2.0"
+lz4 = "^4.0"
+matplotlib = "^3.0"
+numpy = "^1.0"
+scipy = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.0"
+flake8 = "^5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
